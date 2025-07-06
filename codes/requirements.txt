@@ -1,0 +1,33 @@
+# Core Python version
+# Python 3.10 is required — mention in README since requirements.txt cannot enforce it directly
+
+# AirSim client dependencies
+numpy
+msgpack-rpc-python
+opencv-python
+tornado==4.5.3
+
+# RL and deep learning frameworks
+tensorflow
+# or uncomment if using PyTorch
+# torch
+# torchvision
+
+# Additional RL tools (if you decide to use them later)
+# stable-baselines3
+# gym
+
+# Data handling and utilities
+matplotlib
+scikit-learn
+
+# Optional visualization and debugging
+pandas
+seaborn
+
+# Jupyter support if using notebooks
+jupyter
+ipykernel
+
+# Other AirSim support
+msgpack
