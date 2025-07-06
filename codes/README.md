@@ -8,6 +8,14 @@
 - Unreal Engine 4.27 (with AirSim plugin)
 - Visual Studio (for AirSim builds)
 
+
+##  Project Structure
+model_1/
+envi_wrap.ipynb # Environment wrapper
+replay.ipynb # Replay buffer
+sac.ipynb # SAC agent implementation
+train.ipynb # Main training loop
+
 ### Python packages
 
 Install with:
